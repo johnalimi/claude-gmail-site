@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Claude Gmail</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --rule: #e3e3e3; --link: #1a5fb4; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161616; --fg: #ececec; --muted: #a0a0a0; --rule: #2e2e2e; --link: #8ab4f8; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--link); }
+  ul { padding-left: 1.2rem; }
+  footer { border-top: 1px solid var(--rule); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Claude Gmail · Last updated 11 October 2026</p>
+
+  <p>Claude Gmail is a private, internal productivity tool operated by Product Catalyst (“the operator”). It lets the operator search and read <strong>its own</strong> Gmail and Google Workspace mailboxes from an AI assistant (Claude, by Anthropic) running on the operator’s own computer. It is not offered to the public, and only accounts owned or administered by the operator are connected to it.</p>
+
+  <h2>Google user data we access</h2>
+  <p>With your permission, Claude Gmail requests one Google permission: <code>https://www.googleapis.com/auth/gmail.readonly</code> (“View your email messages and settings”). This lets it read email messages, threads, headers, labels and attachment names. It <strong>cannot</strong> send, delete, move, label or otherwise change any email or setting.</p>
+  <p>It also reads the email address of the connected account, so it can tell connected accounts apart.</p>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Emails are only retrieved when the operator asks a question that needs them (for example “find the invoice from last week”), or when a scheduled check that the operator configured looks for new important email.</li>
+    <li>The retrieved email content is used solely to answer that request or produce that notification for the operator.</li>
+    <li>Google user data is never used for advertising, never sold, never used to build profiles, and never used to train or improve AI or machine-learning models.</li>
+  </ul>
+
+  <h2>Where data is stored</h2>
+  <ul>
+    <li>Claude Gmail has no server and no database. It runs only on the operator’s own computer.</li>
+    <li>The Google sign-in tokens are stored locally on that computer, in files readable only by the operator’s user account, on an encrypted disk.</li>
+    <li>Email content is not saved to disk by Claude Gmail. It is held in memory only while answering a request.</li>
+  </ul>
+
+  <h2>Sharing and transfer</h2>
+  <p>When the operator asks Claude about an email, the relevant email content is sent to Anthropic’s Claude service, which processes it to produce the answer, under the operator’s Anthropic account terms. Google user data is not shared with or transferred to anyone else, except where required by law.</p>
+  <p>Claude Gmail’s use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Sign-in tokens are kept until the account is disconnected. To revoke access at any time, remove “Claude Gmail” at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Disconnecting an account also deletes its locally stored token.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new “last updated” date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:john@productcatalyst.co.uk">john@productcatalyst.co.uk</a></p>
+
+  <footer><a href="/">Claude Gmail</a></footer>
+</main>
+</body>
+</html>
